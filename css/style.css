@@ -53,7 +53,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 	.container {
         max-width: 700px;
     }
-    
+
     .grid {
 		margin-left: 0;
 		max-width: none;
@@ -64,29 +64,29 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 		margin-left: 0;
 		display: block;
 	}
-    
-    .two-of-five, .three-of-five  { 
+
+    .two-of-five, .three-of-five  {
         display: inline-block;
     }
-    
+
     .one-of-four { width: 25%; }
-    
+
     .widget.review {
         width: 66%;
     }
 }
-    
+
 
 @media screen and (max-width: 500px) {
 	.container {
         padding: 0 10px;
         padding: 0 .5rem;
     }
-    
-    .two-of-five{ 
-        width: 60%; 
+
+    .two-of-five{
+        width: 60%;
     }
-    
+
     .three-of-five {
         width: 35%;
     }
@@ -129,7 +129,7 @@ h3, .gamma {
     nav a {
         font-size: 100%;
     }
-    
+
     footer {
         font-size: 90%;
     }
@@ -139,7 +139,7 @@ h3, .gamma {
     html {
         font-size: 90%;
     }
-    
+
     header a{
         font-size: 100%;
     }
@@ -150,13 +150,13 @@ h3, .gamma {
 \*-----------------------------------*/
 
 ul li { <!-- create large tap points -->
-    padding: 0; 
-    margin: 0; 
+    padding: 0;
+    margin: 0;
 }
 
 ul a { <!-- create large tap points -->
-    padding: 0; 
-    display: block; 
+    padding: 0;
+    display: block;
 }
 
 .hideMe {
@@ -165,7 +165,7 @@ ul a { <!-- create large tap points -->
 
 .showMe {
     display: none;
-    
+
 }
 
 .right{
@@ -176,7 +176,7 @@ ul a { <!-- create large tap points -->
     padding: 10px;
     background-color: rgba(192, 192, 192, 0.12);
     border: 1px solid gold;
-    
+
 }
 
 
@@ -213,7 +213,7 @@ blockquote {
 .randomImage:first-of-type{
     margin-right: 15px;
 }
-   
+
 
 @media screen and (max-width: 700px) {
 	.hideMe {
@@ -226,11 +226,11 @@ blockquote {
 }
 
 @media screen and (max-width: 500px) {
-    
+
     .imgBorder{
-        margin: 20px 0;   
+        margin: 20px 0;
     }
-    
+
     .randomImage{
         display: block;
         max-width: 300px;
@@ -238,7 +238,7 @@ blockquote {
         margin: 0 auto;
         margin-bottom: 10px;
     }
-    
+
     .randomImage:first-of-type{
         margin-right: auto;
     }
@@ -272,16 +272,16 @@ aside a {
 
 aside a:visited {
     color: #400093;
-} 
+}
 
 aside a:hover {
     border-left: 5px solid #fdd017;
     padding-left: 5px;
 }
 
-.active { 
+.active {
     border-left: 5px solid #000;
-    padding-left: 5px; 
+    padding-left: 5px;
 }
 
 
@@ -293,14 +293,14 @@ aside a:hover {
 
 .content a:visited {
     color: #400093;
-} 
+}
 
 .content a:hover { border-bottom: 1px solid #fdd017; }
 
 
 .imgSection a { border-bottom: none; }
 
-.imgSection img a:visited { border-bottom: none; } 
+.imgSection img a:visited { border-bottom: none; }
 
 .imgSection a:hover { border-bottom: none; }
 
@@ -315,8 +315,8 @@ header a:hover, footer a:hover {
     background-color: #000;
     color: #fdd017;
     border-radius: 7px;
-    -webkit-border-radius: 7px; 
-    -moz-border-radius: 7px; 
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
     border: 2px solid #fdd017;
     cursor: pointer;
     padding: 10px 0;
@@ -324,8 +324,8 @@ header a:hover, footer a:hover {
 
 .button:hover {
     border-radius: 12px;
-    -webkit-border-radius: 12px; 
-    -moz-border-radius: 12px; 
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
     color: #fff;
     background-color: #000;
 }
@@ -356,7 +356,7 @@ header a:hover, footer a:hover {
 }
 
 @media screen and (max-width: 800px) {
-	
+
 }
 
 /*-----------------------------------*\
@@ -414,18 +414,18 @@ header {
         position: fixed;
         top:5px;
     }
-    
+
     header {
         min-height: 51px;
         margin-bottom: 5px;
     }
-    
+
     .headerWrap {
         height: 51px;
         position: fixed;
         top:0;
     }
-    
+
     .site-name a{
         text-decoration: none;
     }
@@ -450,12 +450,12 @@ header {
 	NAVIGATION
 \*-----------------------------------*/
 
-nav { 
+nav {
     margin-top: -160px;
 }
 
-nav ul li { 
-    display: inline-block; 
+nav ul li {
+    display: inline-block;
 }
 
 nav a {
@@ -466,7 +466,7 @@ nav a {
 nav li:first-child a {
     padding-left: 0;
 }
-    
+
 nav li:last-child a {
     padding-right: 0;
 }
@@ -499,7 +499,7 @@ nav li:last-child a {
 }
 
 
-@media screen and (max-width: 700px) {    
+@media screen and (max-width: 700px) {
     .burgerMenu {
         display: block;
         cursor: pointer;
@@ -508,50 +508,50 @@ nav li:last-child a {
         right: 24px;
         z-index: 9998;
     }
-    
+
     .navBar {
-        display: none;  
+        display: none;
     }
-    
+
     ul.navBar {
         position: fixed;
         top: 45px;
         right: 0;
         margin-top: 5px;
     }
-    
+
     nav ul li {
         display: block;
         background: #000;
         text-align: center;
         border-right: 5px solid #000;
     }
-    
+
     .navBar li {
         padding:0;
         width:200px;
     }
-    
+
     .navBar li a {
         padding: 5px;
     }
-    
+
     .navBar li:hover {
         border-right: 5px solid #fdd017;
     }
-    
+
     .navArea {
         position:absolute;
         top:0;
         right:0;
     }
-    
+
     nav a {
         padding: 0 auto;
     }
 }
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) {
     .burgerMenu {
         right: 7px;
         top: 14px;
@@ -571,7 +571,7 @@ nav li:last-child a {
 }
 
 .CallToAction {
-   margin-top: 10px; 
+   margin-top: 10px;
 }
 
 .siteCTAText {
@@ -598,7 +598,7 @@ nav li:last-child a {
 }
 
 .content ul li {
-    
+
 }
 
 @media screen and (max-width: 800px) {
@@ -617,18 +617,18 @@ nav li:last-child a {
     .siteCTATextCenter {
         text-align: center;
     }
-    
+
     #offsetTarget {
         float:none;
     }
 }
 
 @media screen and (max-width: 700px){
-    
+
     div.topMargin {
         margin-top: 210px;
     }
-    
+
 }
 
 @media screen and (max-width: 500px) {
@@ -669,8 +669,8 @@ aside ul li {
     padding: 15px;
     margin: 20px 5px;
     border-radius: 15px;
-    -webkit-border-radius: 15px; 
-    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
 }
 
 .widget:first-of-type {
@@ -692,15 +692,15 @@ aside ul li {
     .widget:first-of-type {
         margin: 0;
     }
-    
+
 }
 
 @media screen and (max-width: 600px) {
     aside.sidebar {
         display: none;
     }
-    
-    
+
+
 }
 
 /*-----------------------------------*\
@@ -749,14 +749,14 @@ footer ul li { display: inline-block;}
     .leftFooter {
         text-align: left;
     }
-    
+
     footer {
         font-size: small;
     }
 }
 
 @media screen and (max-width: 280px) {
-    
+
     footerWrap {
         height: 75px;
     }
@@ -865,9 +865,20 @@ textarea:focus {
         width: 100%;
         height: 30px;
     }
-    
+
     textarea {
         width: 100%;
         height: 150px;
     }
+}
+
+.button input {
+	background-color: black;
+	outline: none;
+	border-color: black;
+	padding: 0 30px;
+}
+
+.button.second {
+	margin-left: 1em;
 }
